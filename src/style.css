@@ -218,8 +218,8 @@ body {
 }
 .hero-img {
   width: 100%;
-  max-width: 350px;
-  height: 350px;
-  object-fit: cover;
+  max-width: 500px;
+  height: auto;
   border-radius: 20px;
+  object-fit: cover;
 }
