@@ -1,264 +1,78 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Projects | Sphelele Chavula</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <style>
-        /* Navigation Styles */
-        .navbar {
-            background-color: #f8f9fa;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            padding: 0.8rem 1rem;
-        }
-        .navbar-brand {
-            font-weight: 600;
-            color: #4e73df !important;
-        }
-        .nav-link {
-            font-weight: 500;
-            color: #5a5c69 !important;
-            padding: 0.5rem 1rem;
-        }
-        .nav-link:hover, .nav-link.active {
-            color: #4e73df !important;
-        }
-        
-        /* Project Card Styles */
-        .project-card {
-            height: 100%;
-            transition: transform 0.3s ease;
-            border: none;
-            border-radius: 8px;
-            overflow: hidden;
-        }
-        .project-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        }
-        .card-img-top {
-            height: 150px;
-            object-fit: cover;
-        }
-        .card-body {
-            padding: 1.25rem;
-        }
-        .card-title {
-            font-size: 1.1rem;
-            margin-bottom: 0.75rem;
-        }
-        .card-text {
-            font-size: 0.9rem;
-            margin-bottom: 1rem;
-            color: #6c757d;
-        }
-        .badge {
-            font-size: 0.75rem;
-            padding: 0.35em 0.65em;
-            margin-right: 0.3rem;
-            margin-bottom: 0.3rem;
-            font-weight: 500;
-        }
-        .btn-sm {
-            padding: 0.25rem 0.75rem;
-            font-size: 0.85rem;
-            border-radius: 4px;
-        }
-        
-    
-    </style>
-</head>
-<body>
-    <!-- Navigation Menu -->
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">Sphelele Chavula</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="projects.html">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    
+<section class="py-5">
+  <div class="container">
 
-    <!-- Projects Content -->
-    <section class="py-4">
-        <div class="container">
-            <div class="row g-3">
-                <!-- Church Website -->
-<div class="col-md-6 col-lg-4">
-  <div class="card project-card h-100 shadow-sm">
-    <img src="https://images.unsplash.com/photo-1507692049790-de58290a4334" class="card-img-top">
-    <div class="card-body d-flex flex-column">
-      <h5 class="card-title">Church Website & System</h5>
-      <p class="card-text">
-        Full church platform with member management, follow-ups, and event tracking.
-      </p>
-      <div class="mb-2">
-        <span class="badge bg-primary">System</span>
-        <span class="badge bg-primary">Database</span>
-        <span class="badge bg-primary">Custom Build</span>
+    <div class="text-center mb-5">
+      <h1 class="fw-bold">My Work</h1>
+      <p class="text-muted">Real projects built for businesses, organizations, and churches</p>
+    </div>
+
+    <div class="row g-4">
+
+      <!-- Church System -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow">
+          <div class="card-body">
+            <h5 class="fw-bold">Church Website & Management System</h5>
+            <p class="text-muted">
+              A full church platform including member tracking, follow-ups, and service management.
+            </p>
+            <div class="mb-3">
+              <span class="badge bg-primary">System</span>
+              <span class="badge bg-primary">Database</span>
+              <span class="badge bg-primary">Web App</span>
+            </div>
+          </div>
+        </div>
       </div>
-      <a href="#" class="btn btn-outline-primary btn-sm mt-auto">View Project</a>
+
+      <!-- Countdown Software -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow">
+          <div class="card-body">
+            <h5 class="fw-bold">Church Countdown Timer Software</h5>
+            <p class="text-muted">
+              A reusable countdown system for churches and events. Users can input their program and run live timers on screen.
+            </p>
+            <div class="mb-3">
+              <span class="badge bg-success">Software</span>
+              <span class="badge bg-success">Custom Tool</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cleaning & Security -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow">
+          <div class="card-body">
+            <h5 class="fw-bold">Cleaning & Security Company Website</h5>
+            <p class="text-muted">
+              A professional business website designed to attract clients and showcase services.
+            </p>
+            <div class="mb-3">
+              <span class="badge bg-warning text-dark">Business</span>
+              <span class="badge bg-warning text-dark">Landing Page</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cleaning & Catering -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow">
+          <div class="card-body">
+            <h5 class="fw-bold">Cleaning & Catering Business Website</h5>
+            <p class="text-muted">
+              Responsive website built for a real company with service pages and contact features.
+            </p>
+            <div class="mb-3">
+              <span class="badge bg-danger">Business</span>
+              <span class="badge bg-danger">Responsive</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
-</div>
-                <!-- Croissant Website -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="card project-card h-100 shadow-sm">
-                        <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80" class="card-img-top" alt="Croissant Website">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Croissant Website</h5>
-                            <p class="card-text">Responsive website about croissants built with HTML and CSS.</p>
-                            <div class="mb-2">
-                                <span class="badge bg-primary">HTML</span>
-                                <span class="badge bg-primary">CSS</span>
-                                <span class="badge bg-primary">Responsive</span>
-                            </div>
-                            <a href="https://croissant-sphelele.netlify.app" target="_blank" class="btn btn-outline-primary btn-sm mt-auto align-self-start">View Project</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- World Clock -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="card project-card h-100 shadow-sm">
-                        <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" class="card-img-top" alt="World Clock">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">World Clock</h5>
-                            <p class="card-text">JavaScript application showing current times in different timezones.</p>
-                            <div class="mb-2">
-                                <span class="badge bg-success">JavaScript</span>
-                                <span class="badge bg-success">API</span>
-                                <span class="badge bg-success">Bootstrap</span>
-                            </div>
-                            <a href="https://world-clock-sphelele.netlify.app" target="_blank" class="btn btn-outline-primary btn-sm mt-auto align-self-start">View Project</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Poem Generator -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="card project-card h-100 shadow-sm">
-                        <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" class="card-img-top" alt="Poem Generator">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">AI Poem Generator</h5>
-                            <p class="card-text">Interactive application that generates random poems.</p>
-                            <div class="mb-2">
-                                <span class="badge bg-info">JavaScript</span>
-                                <span class="badge bg-info">DOM</span>
-                                <span class="badge bg-info">CSS</span>
-                            </div>
-                            <a href="https://sphes-poems-generator.netlify.app" target="_blank" class="btn btn-outline-primary btn-sm mt-auto align-self-start">View Project</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Weather Forecast 1 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="card project-card h-100 shadow-sm">
-                        <img src="https://images.unsplash.com/photo-1558486012-817176f84c6d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" class="card-img-top" alt="Weather Forecast">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Weather Forecast App</h5>
-                            <p class="card-text">Weather application showing current and forecasted conditions.</p>
-                            <div class="mb-2">
-                                <span class="badge bg-warning text-dark">API</span>
-                                <span class="badge bg-warning text-dark">JavaScript</span>
-                                <span class="badge bg-warning text-dark">CSS</span>
-                            </div>
-                            <a href="https://spheleles-weather-forecast-app.netlify.app" target="_blank" class="btn btn-outline-primary btn-sm mt-auto align-self-start">View Project</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Weather Forecast 2 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="card project-card h-100 shadow-sm">
-                        <img src="https://images.unsplash.com/photo-1601134467661-3d775b999c8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1375&q=80" class="card-img-top" alt="Forecast App">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Forecast App</h5>
-                            <p class="card-text">Weather application with different UI implementation.</p>
-                            <div class="mb-2">
-                                <span class="badge bg-danger">API</span>
-                                <span class="badge bg-danger">JavaScript</span>
-                                <span class="badge bg-danger">Bootstrap</span>
-                            </div>
-                            <a href="https://spheleleforecastapp.netlify.app" target="_blank" class="btn btn-outline-primary btn-sm mt-auto align-self-start">View Project</a>
-                        </div>
-                    </div>
-                </div>
-                <h5 class="card-title">Church Countdown Timer Software</h5>
-<p class="card-text">
-Custom-built countdown display system for live church services and presentations.
-</p>
-                <h5 class="card-title">Cleaning & Security Company Website</h5>
-<p class="card-text">
-Professional business website designed to attract clients and generate leads.
-</p>
-<h5 class="card-title">Cleaning & Catering Business Website</h5>
-<p class="card-text">
-Modern responsive website built for a real business with service pages and contact system.
-</p>
-                <!-- GitHub Profile -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="card project-card h-100 shadow-sm">
-                        <img src="https://images.unsplash.com/photo-1622547748225-3fc4abd2cca0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80" class="card-img-top" alt="GitHub">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">GitHub Profile</h5>
-                            <p class="card-text">View all my projects and code repositories on GitHub.</p>
-                            <div class="mb-2">
-                                <span class="badge bg-dark">Code</span>
-                                <span class="badge bg-dark">Repositories</span>
-                                <span class="badge bg-dark">Open Source</span>
-                            </div>
-                            <a href="https://github.com/Spheh123" target="_blank" class="btn btn-outline-dark btn-sm mt-auto align-self-start">View Profile</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    <h4>Sphelele Chavula</h4>
-                    <p class="small mb-0">Web Developer | Websites, Systems & Automation developer</p>
-                </div>
-                <div class="col-md-6 text-center text-md-end">
-                    <div class="social-links">
-                        <a href="https://github.com/Spheh123" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="mailto:sphelelechavula@gmail.com"><i class="fas fa-envelope"></i></a>
-                    </div>
-                    <p class="small mt-2 mb-0">&copy; <span id="year"></span> All rights reserved</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        document.getElementById('year').textContent = new Date().getFullYear();
-    </script>
-</body>
-</html>
+</section>

@@ -202,3 +202,17 @@ body {
             margin: 0 0.5rem;
             font-size: 1.1rem;
         }
+        .card {
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.badge {
+  font-size: 0.7rem;
+  padding: 6px 10px;
+}
