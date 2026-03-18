@@ -217,7 +217,7 @@ body {
   padding: 6px 10px;
 }
 .hero-img {
-  width: auto;
+  width: 100%;
   height: auto;
   max-height: 450px;
   border-radius: 20px;
