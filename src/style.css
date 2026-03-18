@@ -218,9 +218,8 @@ body {
 }
 .hero-img {
   width: 100%;
-  max-width: 520px;
-  height: 450px;
-  object-fit: cover;
+  max-width: 480px;
+  height: auto;
   border-radius: 20px;
 }
 .hero-section {
