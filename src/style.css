@@ -226,7 +226,7 @@ body {
   position: relative;
   background: linear-gradient(135deg, #f8f9fa, #eef2ff);
   overflow: hidden;
-  padding: 80px 0;
+  padding: 150px 0;
 }
 
 .hero-section::after {
@@ -239,9 +239,6 @@ body {
   right: -100px;
   top: -50px;
   filter: blur(100px);
-}
-.myimage {
-  padding: 100px;
 }
 .fade-in {
   opacity: 0;
