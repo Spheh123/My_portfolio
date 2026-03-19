@@ -240,6 +240,9 @@ body {
   top: -50px;
   filter: blur(100px);
 }
+.myimage {
+  padding: 100px 0;
+}
 .fade-in {
   opacity: 0;
   transform: translateY(20px);
