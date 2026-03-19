@@ -256,12 +256,21 @@ body {
   position: fixed;
   bottom: 20px;
   right: 20px;
+
+  width: 60px;
+  height: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   background: #25D366;
   color: white;
-  font-size: 22px;
-  padding: 14px 16px;
+  font-size: 26px;
+
   border-radius: 50%;
   box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+
   z-index: 999;
   transition: 0.3s;
 }
